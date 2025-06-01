@@ -17,8 +17,6 @@ from firebase_admin import credentials, messaging
 from ultralytics import YOLO
 import requests
 
-!pip install twilio firebase-admin ultralytics
-
 from ultralytics import YOLO
 
 # Load YOLOv8 model (official Ultralytics implementation)
@@ -147,5 +145,4 @@ elif input_source == "Upload Video":
                 status_text.success("✅ No fire detected")
         cap.release()
 
-!pip install streamlit ultralytics opencv-python
 
