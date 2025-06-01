@@ -31,8 +31,6 @@ CLASS_MAP = {
     27: "flames"
 }
 
-!pip install streamlit
-
 import cv2
 import streamlit as st
 from ultralytics import YOLO
